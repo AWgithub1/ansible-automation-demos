@@ -7,7 +7,7 @@
       name: "podman"
       state: present
 
-  - name: Pull an image
+  - name: pull an image
     containers.podman.podman_image:
       name: docker.io/httpd
 
