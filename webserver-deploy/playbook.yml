@@ -1,5 +1,5 @@
 ---
-- hosts: webstack
+- hosts: node3.awrng.local
   become: true
   tasks:
   - name: Installing podman
